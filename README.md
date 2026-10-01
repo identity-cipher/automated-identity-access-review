@@ -40,6 +40,7 @@ Classify Severity
 Generate Remediation Actions
         ↓
 Generate Executive Summary
+```
 
 ## Access Review Controls
 
@@ -114,6 +115,18 @@ The completed PowerShell automation reviewed 100 identities, classified findings
 
 ![Final Identity Access Review](screenshots/04-final-automation-run.png)
 
+### Access Review Findings
+
+The detailed findings report records the affected identity, governance control, severity, supporting evidence, and recommended response.
+
+![Access Review Findings](screenshots/02-access-review-findings.png)
+
+### Remediation Actions
+
+The remediation report converts identified access risks into recommended actions for review and remediation.
+
+![Remediation Actions](screenshots/03-remediation-actions.png)
+
 ## Project Structure
 
 ```text
@@ -139,7 +152,6 @@ identity-access-review/
 │   └── New-SyntheticIdentityData.ps1
 │
 └── screenshots/
-    ├── 01-access-review-execution.png
     ├── 02-access-review-findings.png
     ├── 03-remediation-actions.png
     └── 04-final-automation-run.png
@@ -217,3 +229,9 @@ This project demonstrates how PowerShell can automate that process by evaluating
 All employee identities, access records, group memberships, and organizational data used in this project are synthetic and were created solely for demonstration and portfolio purposes.
 
 No production identity data, employer data, credentials, or confidential information is used in this repository.
+
+## License
+
+The PowerShell scripts and code in this repository are licensed under the [MIT License](LICENSE).
+
+Copyright © 2026 Cassie S. Triche.
