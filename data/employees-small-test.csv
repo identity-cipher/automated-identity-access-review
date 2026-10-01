@@ -1,0 +1,12 @@
+EmployeeID,Name,Department,JobTitle,Status,LastLogin,Groups,Privileged,MFAEnabled
+1001,Rachel Green,Marketing,Marketing Analyst,Active,2026-09-29,"Marketing;VPN",False,True
+1002,Maxine Shaw,Legal,Attorney,Terminated,2026-08-14,"Legal;VPN;SharedDrive",False,True
+1003,Khadijah James,IT,IT Administrator,Active,2026-09-30,"IT;VPN;Administrators",True,True
+1004,Monica Geller,Finance,Financial Analyst,Active,2026-06-15,"Finance;VPN;SharedDrive",False,True
+1005,Phoebe Buffay,HR,HR Specialist,Active,2026-09-28,"HR;VPN;Administrators",True,False
+1006,Synclaire James,Marketing,Marketing Coordinator,Active,2026-09-27,"Marketing;VPN",False,True
+1007,Regine Hunter,Sales,Sales Manager,Terminated,2026-07-10,"Sales;VPN;SharedDrive",False,False
+1008,Joey Tribbiani,Sales,Sales Representative,Active,2026-09-30,"Sales;VPN",False,False
+1009,Ross Geller,Research,Research Analyst,Active,2026-05-01,"Research;VPN;SharedDrive",False,True
+1010,Kyle Barker,Finance,Finance Manager,Active,2026-09-30,"Finance;VPN;SharedDrive;Administrators",True,True
+1111,Chandler Bing,Research,Transponster,Terminated,2024-10-30,"Research;VPN;SharedDrive",False,True
